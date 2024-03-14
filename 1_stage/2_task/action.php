@@ -14,7 +14,7 @@
 
     <div class="container">
         <?php 
-        require_once('func.php');
+        require_once('php/print_table_from_CSV.php');
         print_table_from_CSV($_FILES['file']);
         ?>
     </div>
